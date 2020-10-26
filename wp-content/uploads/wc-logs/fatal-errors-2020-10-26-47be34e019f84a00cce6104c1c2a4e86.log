@@ -1,0 +1,33 @@
+2020-10-26T19:53:52+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-cart-header.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require()
+#1 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#2 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/header.php(84): get_template_part('template-parts/...', 'cart-header')
+#4 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(730): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/amazoni in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-cart-header.php on line 18
+
+2020-10-26T19:54:20+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-cart-header.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require()
+#1 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#2 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/header.php(84): get_template_part('template-parts/...', 'cart-header')
+#4 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(730): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/amazoni in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-cart-header.php on line 18
+
+2020-10-26T20:09:22+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-cart-header.php:18
+Stack trace:
+#0 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require()
+#1 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#2 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/header.php(84): get_template_part('template-parts/...', 'cart-header')
+#4 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(730): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#6 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/MAMP/htdocs/amaz in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-cart-header.php on line 18
+

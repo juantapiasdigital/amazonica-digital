@@ -1,0 +1,26 @@
+2020-10-23T19:12:22+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-banner.php on line 12
+
+2020-10-23T19:12:26+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-banner.php on line 12
+
+2020-10-23T19:45:08+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-product.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require()
+#1 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#2 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/views/template-component.php(16): get_template_part('template-parts/...', 'product')
+#4 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#6 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /Applications/MAMP in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-product.php on line 15
+
+2020-10-23T19:45:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-product.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require()
+#1 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#2 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/views/template-component.php(16): get_template_part('template-parts/...', 'product')
+#4 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(732): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/amazonica/wp-includes/template.php(676): load_template('/Applications/M...', false, Array)
+#6 /Applications/MAMP/htdocs/amazonica/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /Applications/MAMP in /Applications/MAMP/htdocs/amazonica/wp-content/themes/amazonica/template-parts/component-product.php on line 15
+
